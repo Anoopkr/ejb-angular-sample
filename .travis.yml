@@ -6,11 +6,6 @@ jdk:
 services:
   - docker
   
-notifications:
-  email:
-    - angular2guy@gmx.ch
-  on_success: always
-  on_failure: always
 
 before_install:
   - nvm install 10.9
